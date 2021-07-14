@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.meirwizard" name="[COLOR darkorchid]MEIR[/COLOR] [COLOR royalblue]Wizard[/COLOR]" version="Matrix-1.0.0" provider-name="meirb88">
+<addon id="plugin.program.mbtvwizard" name="[B][COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard[/B]" version="Matrix-1.0.0" provider-name="meirb88">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.requests" />
@@ -32,8 +32,8 @@ Matrix-1.0.0
     </extension>
 </addon>
 
-<addon id="repository.meirwizard" name="[COLOR darkorchid]MEIR[/COLOR] [COLOR royalblue]Wizard[/COLOR] Repo" version="1.0.0" provider-name="meirb88">
-    <extension point="xbmc.addon.repository" name="Example Repository">
+<addon id="repository.mbtvwizard" name="[COLOR darkorchid]MB[/COLOR][COLOR royalblue]TV[/COLOR] Wizard Repo" version="1.0.0" provider-name="meirb88">
+    <extension point="xbmc.addon.repository" name="MBTV Wizard Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/meirb88/meirwizard/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/meirb88/meirwizard/master/repo/zips/addons.xml.md5</checksum>
